@@ -1,0 +1,12 @@
+[submodule "third_party/N3LDG-plus"]
+	path = third_party/N3LDG-plus
+	url = https://github.com/chncwang/N3LDG-plus.git
+[submodule "third_party/cxxopts"]
+	path = third_party/cxxopts
+	url = git@github.com:jarro2783/cxxopts.git
+[submodule "third_party/inih"]
+	path = third_party/inih
+	url = git@github.com:jtilly/inih.git
+[submodule "third_party/eigen-git-mirror"]
+	path = third_party/eigen-git-mirror
+	url = git@github.com:chncwang/eigen-git-mirror.git

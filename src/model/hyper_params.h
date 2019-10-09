@@ -4,6 +4,7 @@
 #pragma once;
 
 #include "N3LDG.h"
+#include "options.h"
 
 struct HyperParams {
 private:
@@ -34,6 +35,6 @@ public:
         nn_regular_ = 
     }
 
-}
+};
 
 #endif // NN_LANG_MODEL_SRC_MODEL_HYPER_PARAMS_H_

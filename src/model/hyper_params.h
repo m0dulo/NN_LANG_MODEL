@@ -32,7 +32,23 @@ public:
     }
 
     void setParams(Options &op) {
-        nn_regular_ = 
+        nn_regular_ = op.reg_parameter_;
+        ada_alpha_ = op.ada_alpha_;
+        ada_eps_ = op.ada_eps_;
+        hidden_size_ = op.hidden_size_;
+        word_context_ = op.word_context_;
+        drop_prob_ = op.drop_prob_;
+        batch_size_ = op.batch_size_;
+
+        bAssigned_ = true;
+    }
+
+    void clear() {
+        bAssigned_ = false;
+    }
+
+    bool bValid() {
+        return bAssigned_;
     }
 
 };
